@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Thiago</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Portifólio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Olá, eu sou o <span class="highlight">Thiago Anacleto</span></h1>
+                <p class="subtitle">Back-End Developer | PostgreSQL • REST APIs • PHP • Flask</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">Veja meus projetos</a>
+                    <a href="#contact" class="btn secondary">Entre em contato!</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Sobre mim</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Olá! Muito prazer, me chamo Thiago Anacleto, tenho 22 anos, nasci em Curitiba - PR, sou um desenvolvedor Back-End com experiência prática no desenvolvimento de sistemas web utilizando Python (Flask), PostgreSQL e APIs REST.
+
+Tenho conhecimento sólido em back-end, com foco em organização de rotas, autenticação, boas práticas de código e integração com banco de dados relacional. No front-end, trabalho com HTML, CSS (Bootstrap) e JavaScript, desenvolvendo interfaces funcionais e responsivas. Também utilizo AJAX e fetch API para criar aplicações mais dinâmicas no navegador.
+
+Já desenvolvi projetos com PHP e MySQL, como sistemas de cadastro, login, dashboards administrativos e sites institucionais. Sempre busco aplicar conceitos de código limpo, segurança e reutilização.
+
+Sou curioso, gosto de aprender com exemplos reais e estou em constante evolução, estudando novas tecnologias e aprimorando meu fluxo de trabalho com ferramentas como Git, GitHub e deploy automatizado em ambientes em nuvem.
+
+</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h3>2+</h3>
+                            <p>Anos de Experiência</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>20+</h3>
+                            <p>Projetos Completos</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>20+</h3>
+                            <p>Clientes Satisfeitos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Minhas Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>HTML5</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 100%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>CSS3</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 100%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Python</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 100%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>PHP</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>React</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 65%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Sistema de Chamados</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <img src="test.jpg" alt="foto">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>PowerDesk</h3>
+                        <p>O PowerDesk é um sistema web de suporte técnico desenvolvido para atender às necessidades internas de empresas que lidam com atendimento, manutenção e registros de chamados. O sistema foi projetado com foco em organização, agilidade e controle de demandas técnicas. Desenvolvido em Python (Flask) com banco de dados PostgreSQL, o PowerDesk permite o cadastro, acompanhamento e edição de chamados técnicos com registro automático de alterações (log), controle de permissões por tipo de usuário (administrador, técnico e comum) e uma interface padrão!</p>
+                        <br>
+                        <p>Utilize:</p>
+                        <br>
+                        <p>Login: Adm</p>
+                        <p>Senha: 1234</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap</span>
+                            <span>JavaScript</span>
+                            <span>Python (Flask) </span>
+                        </div>
+                        <a href="https://suporte-power-live.up.railway.app/" class="btn secondary">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Entre em contato</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>thiagoanacletonn3@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+55 041 99708-7649</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-ma rker-alt"></i>
+                        <p>Curitiba - PR</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Seu melhor e-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Sua mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/ThiagoViniciosAnacleto"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/thiagoviniciosanacleto/"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>&copy; 2025 Thiago Anacleto. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
